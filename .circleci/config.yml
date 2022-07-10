@@ -83,6 +83,6 @@ jobs:
 workflows:
     ci_cd_workflow:
         jobs:
-            - create-infrastructure
+            - create_infrastructure
             # - configure_infrastructure
             - smoke_test
